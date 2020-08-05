@@ -26,13 +26,13 @@ solution to an optimization problem is a (local) minimum, a point in parameter s
 greater or equal cost. The solution to a game is a Nash equilibrium.
 
 ### Implementations:
-For detailed explanation about implementation please read Section 4.2 in [this](https://github.com/anant10/GAN-Text2Image-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf) report.
+For detailed explanation about implementation please read Section 4.2 in [this](https://github.com/Pooja-Shanbhag/GAN-Text2ImageSynthesis-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf) report.
 
 #### 1. Vanilla GAN
 This is the simplest type of GAN. Here the Generator and Discriminator are simple fully connected neural networks.
 
 ![](images/VanillaGan.JPG)
-Details to build this network : [section 4.2.1](https://github.com/anant10/GAN-Text2Image-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf)
+Details to build this network : [section 4.2.1](https://github.com/Pooja-Shanbhag/GAN-Text2ImageSynthesis-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf)
 
 
 #### 2. DEEP CONVOLUTIONAL GAN (DCGAN)
@@ -42,7 +42,7 @@ object parts to scenes in both the generator and discriminators. The correlation
 scene is captured by CNN whereas fully connected layers failed at this.
 
 ![](images/DCGAN.png)
-Details to build this network : [section 4.2.2](https://github.com/anant10/GAN-Text2Image-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf)
+Details to build this network : [section 4.2.2](https://github.com/Pooja-Shanbhag/GAN-Text2ImageSynthesis-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf)
 
 ### Empirical results:
 #### VANILLA GAN
@@ -88,5 +88,5 @@ reached.
 ![](images/DCGAN_error.png).
 
 
-## This project is the precursor to the next project : [Text to Image Generation](https://github.com/anant10/GAN-Text2Image-ReverseOCR).
-The complete report is available [here](https://github.com/anant10/GAN-Text2Image-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf)
+## This project is the precursor to the next project : [Text to Image Generation](https://github.com/Pooja-Shanbhag/GAN-Text2ImageSynthesis-ReverseOCR).
+The complete report is available [here](https://github.com/Pooja-Shanbhag/GAN-Text2ImageSynthesis-ReverseOCR/blob/master/Text%20to%20Image%20Synthesis%20using%20GAN%20Final%20Report.pdf)
